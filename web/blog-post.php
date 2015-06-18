@@ -42,51 +42,51 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
                         <a href="services.html">Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="portfolio-1-col.php">1 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="portfolio-2-col.php">2 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                                <a href="portfolio-3-col.php">3 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                                <a href="portfolio-4-col.php">4 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                                <a href="portfolio-item.php">Single Portfolio Item</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.php">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.php">Blog Home 2</a>
+                            </li>
                             <li class="active">
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
+                                <a href="blog-post.php">Blog Post</a>
                             </li>
                         </ul>
                     </li>
@@ -94,16 +94,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="full-width.html">Full Width Page</a>
+                                <a href="full-width.php">Full Width Page</a>
                             </li>
                             <li>
                                 <a href="sidebar.html">Sidebar Page</a>
                             </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="faq.php">FAQ</a>
                             </li>
                             <li>
-                                <a href="404.html">404</a>
+                                <a href="404.php">404</a>
                             </li>
                             <li>
                                 <a href="pricing.html">Pricing Table</a>
@@ -123,86 +123,103 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Blog Home One
-                    <small>Subheading</small>
+                <h1 class="page-header">Blog Post
+                    <small>by <a href="#">Start Bootstrap</a>
+                    </small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
-                    <li class="active">Blog Home One</li>
+                    <li class="active">Blog Post</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
+        <!-- Content Row -->
         <div class="row">
 
-            <!-- Blog Entries Column -->
-            <div class="col-md-8">
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
 
-                <!-- First Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on August 28, 2013 at 10:00 PM</p>
-                <hr>
-                <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                <a class="btn btn-primary" href="#">Read More <i class="fa fa-angle-right"></i></a>
+                <!-- Blog Post -->
 
                 <hr>
 
-                <!-- Second Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on August 28, 2013 at 10:45 PM</p>
-                <hr>
-                <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
-                <a class="btn btn-primary" href="#">Read More <i class="fa fa-angle-right"></i></a>
+                <!-- Date/Time -->
+                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM</p>
 
                 <hr>
 
-                <!-- Third Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on August 28, 2013 at 10:45 PM</p>
-                <hr>
-                <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
-                <a class="btn btn-primary" href="#">Read More <i class="fa fa-angle-right"></i></a>
+                <!-- Preview Image -->
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
 
                 <hr>
 
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
+                <!-- Post Content -->
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+
+                <hr>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://placehold.it/64x64" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Nested Start Bootstrap
+                                    <small>August 25, 2014 at 9:30 PM</small>
+                                </h4>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                        <!-- End Nested Comment -->
+                    </div>
+                </div>
 
             </div>
 
@@ -237,7 +254,6 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- /.col-lg-6 -->
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
                                 <li><a href="#">Category Name</a>
@@ -250,7 +266,6 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- /.col-lg-6 -->
                     </div>
                     <!-- /.row -->
                 </div>
